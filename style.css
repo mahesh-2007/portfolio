@@ -128,7 +128,7 @@ img {
     width: 400px;
     font-size: 35px;
     margin-left: 5px;
-    text-decoration: none;
+    
     padding-left: 0px;
     color: aliceblue;
 }
@@ -364,7 +364,7 @@ button:hover {
 }
 .info{
     position: relative;
-    padding-left: 50px;
+    padding-left: 500px;
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -406,4 +406,3 @@ button:hover {
 #Contact form button{
     color: #fff;
 }
-    
