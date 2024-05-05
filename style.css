@@ -128,7 +128,7 @@ img {
     width: 400px;
     font-size: 35px;
     margin-left: 5px;
-    
+
     padding-left: 0px;
     color: aliceblue;
 }
@@ -335,18 +335,21 @@ button:hover {
     color: #3498db;
     right: 65px;
 }
-.info{
+
+.info {
     position: relative;
     display: block;
-    
+
 }
-#Contact h5{
+
+#Contact h5 {
     position: relative;
     top: 25px;
     margin: 29px;
     font-size: 18px;
 }
-.copy{
+
+.copy {
     position: relative;
     background-color: #353b48;
     width: 100%;
@@ -354,34 +357,38 @@ button:hover {
     top: 50;
 
 }
-.copy h6{
+
+.copy h6 {
     position: relative;
     display: flex;
     justify-content: center;
     top: 10px;
     font-weight: 100;
-    
-}
-.fa-copyright{
-    position: relative;
-    padding-right: 10px;
-    
+
 }
 
-#Contact form button{
+.fa-copyright {
+    position: relative;
+    padding-right: 10px;
+
+}
+
+#Contact form button {
     color: #fff;
 }
-.toggle_btn{
+
+.toggle_btn {
     color: aliceblue;
     cursor: pointer;
-    display:flex;
+    display: flex;
     position: relative;
     padding-left: 500px;
     bottom: 20px;
 
 }
-.dropdown_menu{
-    position:absolute;
+
+.dropdown_menu {
+    position: absolute;
     right: 2rem;
     top: 60px;
     width: 300px;
@@ -393,62 +400,74 @@ button:hover {
     height: 0;
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.dropdown_menu open{
+
+.dropdown_menu open {
     height: 240px;
 
 }
-.dropdown_menu li{
+
+.dropdown_menu li {
     padding: 0.7rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.dropdown_menu li a{
+
+.dropdown_menu li a {
     color: aliceblue;
     text-decoration: none;
 }
-.dropdown_menu li a:hover{
+
+.dropdown_menu li a:hover {
     color: aqua;
 }
-@media(max-width:992px){
-    .navbar a{
-        
+
+@media(max-width:992px) {
+    .navbar a {
+
         display: none;
-        
+
     }
-    .dropdown_menu{
+
+    .dropdown_menu {
         display: block;
     }
-    .Home{
+
+    .Home {
         position: relative;
         top: 50px;
         left: 1px;
     }
-    img{
+
+    img {
         display: flex;
         position: absolute;
         left: 160px;
         top: 25px;
-        
+        max-height: 1200px;
+        max-width: 600px;
     }
+
     .skill {
         height: auto;
         width: auto;
 
     }
-    .Contact h5{
-    width: auto;
+
+    .Contact h5 {
+        width: auto;
     }
+
     .content h1 {
-       width: 400px;
-       position: relative;
-       top: 0px;
-       left: 79px;
-       display: flex;
-       justify-content: center;
+        width: 400px;
+        position: relative;
+        top: 0px;
+        left: 79px;
+        display: flex;
+        justify-content: center;
     }
-    
+
     .content h3 {
         display: flex;
         color: rgb(27, 103, 109);
@@ -458,7 +477,7 @@ button:hover {
         width: 380px;
         left: 1;
     }
-    
+
     section p {
         color: rgb(133, 211, 211);
         font-weight: 700;
@@ -467,73 +486,110 @@ button:hover {
         top: 10;
         left: 1px;
         justify-content: center;
-    
+
     }
-    
+
     .Home .content span {
         color: aqua;
         display: flex;
         justify-content: center;
     }
+
     #p1,
-#p2,
-#p3,
-#p4 {
-    color: rgb(133, 211, 211);
-   
-    
-    
-    display: flex;
-    position: relative;
-    height: 100px;
-    
-}
-h2{
-    position: relative;
-    top: 20px;
-    right: 10%;
-    
-}
-}
-@media screen and(max-width:400px) {
-    
-    .navbar a{
-        
-        display: none;
-        
+    #p2,
+    #p3,
+    #p4 {
+        color: rgb(133, 211, 211);
+
+        display: flex;
+        justify-content: center;
+
+        display: flex;
+        position: relative;
+        height: 100px;
+
     }
-    .dropdown_menu{
+
+    h2 {
+        position: relative;
+        top: 20px;
+        right: 10%;
+
+    }
+
+    #logo {
+        color: aliceblue;
+        font-size: 50px;
+        text-decoration: none;
+        font-weight: 100;
+        margin-left: 35px;
+        display: flex;
+        font-size: 30px;
+
+    }
+
+    .home-btn {
+        justify-content: center;
+    }
+
+    #logo h6 {
+        display: flex;
+        margin-top: 8%;
+        color: 00abf0;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+@media screen and(max-width:480px) {
+
+    .navbar a {
+
+        display: none;
+
+    }
+
+    .dropdown_menu {
         display: block;
     }
-    .Home{
+
+    .Home {
         position: relative;
         top: 50px;
         left: 1px;
     }
-    img{
+
+    img {
         display: flex;
         position: absolute;
         left: 160px;
         top: 25px;
-        
+        max-height: 2000px;
+        max-width: 1000px;
+
+
     }
+
     .skill {
         height: auto;
         width: auto;
 
     }
-    .Contact h5{
-    width: auto;
+
+    .Contact h5 {
+        width: auto;
     }
+
     .content h1 {
-       width: auto;
-       position: relative;
-       top: 0px;
-       left: 79px;
-       display: flex;
-       justify-content: center;
+        width: auto;
+        position: relative;
+        top: 0px;
+        left: 79px;
+        display: flex;
+        justify-content: center;
     }
-    
+
     .content h3 {
         display: flex;
         color: rgb(27, 103, 109);
@@ -541,9 +597,8 @@ h2{
         font-weight: 700;
         justify-content: center;
         width: 380px;
-        left: 1;
+        
     }
-    
     section p {
         color: rgb(133, 211, 211);
         font-weight: 700;
@@ -551,34 +606,42 @@ h2{
         position: relative;
         top: 10;
         left: 1px;
-        justify-content: center;
-    
+        width: auto;
+        font-weight: 300;
+        height: auto;
     }
-    
+
     .Home .content span {
         color: aqua;
         display: flex;
         justify-content: center;
     }
+
     #p1,
-#p2,
-#p3,
-#p4 {
-    color: rgb(133, 211, 211);
-   
-    
-    
-    display: flex;
-    position: relative;
-    
-    
-}
-h2{
-    position: relative;
-    top: 20px;
-    right: 10%;
-    
-}
+    #p2,
+    #p3,
+    #p4 {
+        color: rgb(133, 211, 211);
+        display: flex;
+        position: relative;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+    }
 
+    h2 {
+        position: relative;
+        top: 20px;
+        right: 10%;
 
+    }
+
+    .home-btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
 }
