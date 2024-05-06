@@ -584,9 +584,8 @@ button:hover {
 }
 
 @media (max-width:400px) {
-     body{
-        
-     }
+     
+     
     .navbar a {
 
         display: none;
