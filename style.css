@@ -358,7 +358,7 @@ button:hover {
 
 .Project{
 color: #3498db;
-color: #3498db;
+
 display: flex;
 justify-content: center;
 position: relative;
@@ -367,7 +367,7 @@ top: -65px;
 
 
 #Contact{
-    color:aqua
+   
 }
 
 #Contact h2 {
@@ -453,138 +453,8 @@ top: -65px;
 }
 
 @media(max-width:992px) {
-    .navbar a {
-
-        display: none;
-
-    }
-
-    .dropdown_menu {
-        display: block;
-    }
-
-    .Home {
-        position: relative;
-        top: 50px;
-        left: 1px;
-    }
-
-    img {
-        display: flex;
-        position: absolute;
-        left: 160px;
-        top: 25px;
-        max-height: 1200px;
-        max-width: 600px;
-    }
-
-    .skill {
-        height: auto;
-        width: auto;
-
-    }
-
-    .Contact h5 {
-        width: auto;
-    }
-
-    .content h1 {
-        width: 400px;
-        position: relative;
-        top: 0px;
-        left: 79px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .content h3 {
-        display: flex;
-        color: rgb(27, 103, 109);
-        font-size: 32px;
-        font-weight: 700;
-        justify-content: center;
-        width: 380px;
-        left: 1;
-    }
-
-    section p {
-        color: rgb(133, 211, 211);
-        font-weight: 700;
-        width: auto;
-        position: relative;
-        top: 10;
-        left: 1px;
-        justify-content: center;
-
-    }
-
-    .Home .content span {
-        color: aqua;
-        display: flex;
-        justify-content: center;
-    }
-
-    #p1,
-    #p2,
-    #p3,
-    #p4 {
-        color: rgb(133, 211, 211);
-
-        display: flex;
-        justify-content: center;
-
-        display: flex;
-        position: relative;
-        height: 100px;
-
-    }
-
-    h2 {
-        position: relative;
-        top: 20px;
-        right: 10%;
-
-    }
-
-    #logo {
-        color: aliceblue;
-        font-size: 50px;
-        text-decoration: none;
-        font-weight: 100;
-        margin-left: 35px;
-        display: flex;
-        font-size: 30px;
-
-    }
-
-    .home-btn {
-        justify-content: center;
-    }
-
-    #logo h6 {
-        display: flex;
-        margin-top: 8%;
-        color: 00abf0;
-        font-family: "Poppins", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-    }
-}
-
-@media (max-width:400px) {
-    #logo{
+    .Home{
         display: flex;
         
-    }
-    img{
-        display: flex;
-        left: 110;
-        width: 200;
-    }
-    .content{
-     
-    }
-    #Project{
-        display: none;
     }
 }
