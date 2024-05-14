@@ -40,13 +40,9 @@ div .menuB {
 
 }
 
-#logo h6 {
-    display: flex;
-    margin-top: 8%;
-    color: 00abf0;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+#logo span {
+    font-size: 40px;
+    color: #3498db;
 }
 
 .navbar a {
@@ -486,9 +482,82 @@ top: -65px;
     color: aqua;
 }
 
-@media(max-width:992px) {
+@media(max-width:400px) {
     .Home{
         display: flex;
-
-    }
+        flex-direction: column;
+ 
+    
 }
+.main {
+    width: 180px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+}
+.mahesh{
+  display: flex;
+  font-size: 29px;
+}
+#logo span {
+    font-size: 17px;
+}
+.skill{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: none;
+}
+.content h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+}
+.content h3{
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
+    align-items: center;
+}
+section p{
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.home-btn{
+    display: flex;
+    column-gap: 0;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.Portfolio{
+    display: flex;
+   justify-content: center;
+}
+button{
+    display: flex;
+    position: relative;
+    left: 1px;
+}
+#p1,
+#p2,
+#p3,
+#p4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 43px;
+
+}}
