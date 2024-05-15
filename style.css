@@ -492,10 +492,8 @@ top: -65px;
     
 }
 .main {
-    width: 180px;
-        margin: 0;
-        display: flex;
-        justify-content: center;
+    width: 197px;
+    margin: 10px;
 }
 .img-port{
     position: relative;
@@ -509,11 +507,13 @@ top: -65px;
     font-size: 17px;
 }
 .skill{
-    width: auto;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+            width: 376px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        left: 1px;
 }
 .content{
     display: flex;
@@ -579,7 +579,7 @@ button{
     width: 244px;
 }
 }
-@media screen and (min-width:401px) and (max-width: 900px) {
+@media screen and (min-width:481px) and (max-width: 900px) {
     .navbar {
         display: none;
     }
