@@ -481,8 +481,58 @@ top: -65px;
 .dropdown_menu li a:hover {
     color: aqua;
 }
-
-@media(max-width:400px) {
+/* tablet */
+@media screen and (min-width:401px) and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+    #Contact h2{
+        position: relative;
+        display: flex;
+        left: 96px;
+    }
+    .info{
+        display: flex;
+        position: relative;
+        left: 92px;
+    }
+.copy{
+    width: 900px;
+}
+    .main{
+        display: flex;
+        position: relative;
+        left: -59px;
+    }
+    .content{
+        display: flex;
+        position: relative;
+        right: 73px;
+    }
+    .header{
+        width: 898px;
+    }
+    .about{
+        display: flex;
+        position: relative;
+        left: 90px;
+    }
+    .Project{
+        display: flex;
+        position: relative;
+        left: 90px;
+    }
+    .img2{
+        position: absolute;
+        left: 328px;
+    }
+    .img-port{
+        position: relative;
+        left: 94px;
+    }
+}
+  /* mobile potrait*/
+@media(max-width:480px) {
     .Home{
         display: flex;
         flex-direction: column;
@@ -494,6 +544,10 @@ top: -65px;
         margin: 0;
         display: flex;
         justify-content: center;
+}
+.img-port{
+    position: relative;
+    left: 1;
 }
 .mahesh{
   display: flex;
@@ -511,6 +565,8 @@ top: -65px;
 }
 .content{
     display: flex;
+    position: relative;
+    top: 35px;
     justify-content: center;
     align-items: center;
 }
@@ -549,6 +605,11 @@ button{
     display: flex;
     position: relative;
     left: 1px;
+    top: 26px;
+}
+.about{
+    position: relative;
+    top: 30px;
 }
 #p1,
 #p2,
@@ -560,4 +621,9 @@ button{
     position: relative;
     left: 43px;
 
-}}
+}
+.img2{
+    position: absolute;
+    width: 244px;
+}
+}
