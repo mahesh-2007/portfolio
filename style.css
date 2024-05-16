@@ -566,11 +566,14 @@ button{
 #p3,
 #p4 {
     display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
-    left: 43px;
-
+    left: 27px;
+    width: 306px;
+    margin: 26px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .img2{
     position: absolute;
