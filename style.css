@@ -522,9 +522,7 @@ top: -65px;
     justify-content: center;
     align-items: center;
 }
-.navbar{
-    display: none;
-}
+
 .content h1{
     display: flex;
     justify-content: center;
@@ -578,11 +576,11 @@ button{
     position: absolute;
     width: 244px;
 }
+
 }
+
 @media screen and (min-width:481px) and (max-width: 900px) {
-    .navbar {
-        display: none;
-    }
+    
     #Contact h2{
         position: relative;
         display: flex;
@@ -627,4 +625,77 @@ button{
         position: relative;
         left: 94px;
     }
+
 }
+input{
+    display: none;
+}
+@media (max-width:768px) {
+ .navbar{
+    position: absolute;
+    top: 48px;
+    display: flex;
+    background: #0b1c27;
+    left: 0px;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+    
+    height: 0;
+    overflow: hidden;
+    align-items: center;
+    transition: 0.5s;
+    }
+    .navbar a {
+        display: flex;
+        margin-bottom:-8px ;
+        margin-left: 36px;
+    }
+nav a:nth-child(1){
+    display: flex;
+ }   
+label {
+    width: 27px;
+        height: 16px;
+        right: 24px;
+        position: relative;
+}
+label div{
+    width: 100%;
+    height: 5px;
+    background: #3498db;
+    position: absolute;
+    transform: translateY(-50%);
+    border-radius: 99px;
+    transform: scale(1);
+}
+label div:nth-child(1){
+    top: 0;
+
+}
+label div:nth-child(2){
+    top: 50%;
+    
+}
+label div:nth-child(3){
+    top: 100%;
+    
+}
+input:checked + header nav{
+    height: 100vh;
+}
+input:checked + header label div:nth-child(1){
+    transform: rotate(45deg);
+    top: 50%;
+
+}
+input:checked + header label div:nth-child(3){
+    transform: rotate(-45deg);
+    top: 50%;
+
+}
+input:checked + header label div:nth-child(2){
+    transform: scale(0);
+    opacity: 0;
+  
+}}
