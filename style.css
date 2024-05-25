@@ -300,6 +300,10 @@ h3 {
     width: 48%;
     animation: java 3s;
 }
+.js{
+    width: 50%;
+    animation: java 3s;
+}
 
 
 @keyframes html {
@@ -332,10 +336,20 @@ h3 {
         width: 48%;
     }
 }
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
 
 #fa-java,
 #fa-html5,
-#fa-css3-alt {
+#fa-css3-alt,
+#fa-square-js {
     font-weight: 400;
 }
 
