@@ -394,11 +394,14 @@ display: flex;
 justify-content: center;
 position: relative;
 top: -65px;
+
 }
 .Portfolio{
-        display: flex;
-        justify-content: center;
-        
+    display: flex;
+    justify-content: center;
+    min-height: 1000px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .img-port{
@@ -406,9 +409,18 @@ top: -65px;
     display: flex;
     justify-content: center;
     position: relative;
-    left: -266px;
+    bottom: 145px;
     text-decoration: none;
     color: transparent;
+    
+}
+.view{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:5px;
+    color: aliceblue;
+    
 }
 #Contact{
    
@@ -590,10 +602,19 @@ button{
     flex-wrap: nowrap;
 }
 .img2{
-    position: absolute;
+    position: relative;
     width: 244px;
 }
-
+.view{
+    position: relative;
+    left: 15px;
+    width: 306px;
+    margin: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap
+}
 }
 
 @media screen and (min-width:481px) and (max-width: 900px) {
