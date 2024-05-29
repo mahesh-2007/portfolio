@@ -81,7 +81,8 @@ div .menuB {
     font-size: 56px;
     font-weight: 600;
     max-width: 600px;
-    font-family: "Bree Serif", serif;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -90,9 +91,10 @@ div .menuB {
     color: rgb(27, 103, 109);
     font-size: 32px;
     font-weight: 700;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 section p {
@@ -671,12 +673,19 @@ button{
         left: 90px;
     }
     .img2{
-        position: absolute;
-        left: 328px;
+        position: relative;
+        
     }
     .img-port{
         position: relative;
-        left: 94px;
+        left: 12px;
+        bottom: 275px;
+    }
+    #Project{
+         height: auto;
+    }
+    .view{
+        margin: 64px;
     }
    
 input{
