@@ -668,9 +668,10 @@ button{
         left: 90px;
     }
     .Project{
-        display: flex;
+        height: auto;
+        display: inline-flex;
         position: relative;
-        left: 90px;
+        left: 50%;
     }
     .img2{
         position: relative;
@@ -683,11 +684,21 @@ button{
     }
     #Project{
          height: auto;
+         display: flex;
+    }
+    #Contact{
+        display: flex;
+        flex-direction: column;
+        margin-right: 103px;
+        justify-content: center;
+        align-items: center;
     }
     .view{
         margin: 64px;
     }
-   
+    .navbar a {
+        
+    }
 input{
     display: none;
     
@@ -732,3 +743,4 @@ input{
         font-size: 20px;
     }
 }
+
