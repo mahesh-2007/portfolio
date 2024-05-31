@@ -1,6 +1,6 @@
-var a = document.querySelector(".nav2")
-var b = document.querySelector(".fa-x")
-var c = document.querySelector(".fa-bars")
+var a = document.querySelector(".nav2");
+var b = document.querySelector(".fa-x");
+var c = document.querySelector(".fa-bars");
 function bars(){
 a.style.display="flex";
 b.style.display="flex";
