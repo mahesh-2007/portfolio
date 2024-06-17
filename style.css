@@ -420,6 +420,9 @@ div #aaa{
     flex-direction: column;
     text-decoration: none;
 }
+#abtimg{
+    display: flex;
+}
 .navbar i{
     display: none;
 }
