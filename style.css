@@ -422,6 +422,10 @@ div #aaa{
 }
 #abtimg{
     display: flex;
+    position: absolute;
+    right: 55px;
+    top: 825px;
+    width: 400;
 }
 .navbar i{
     display: none;
@@ -548,6 +552,12 @@ div #aaa{
 }
 #logo span {
     font-size: 17px;
+}
+#abtimg{
+    position: relative;
+    top: 49px;
+    left: 76px;
+    width: 274px;
 }
 .skill{
             width: 376px;
