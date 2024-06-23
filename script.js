@@ -11,4 +11,9 @@ a.style.display="none";
 b.style.display="none";
 c.style.display="flex";
 }
-
+var typed = new Typed('.auto-type', {
+    strings: ["Mahesh"],
+    typeSpeed: 150,
+    backSpeed: 150,
+   loop: 1000000000000000000000000000
+  });

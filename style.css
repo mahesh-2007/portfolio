@@ -88,13 +88,14 @@ div .menuB {
 }
 
 .content h3 {
-    color: rgb(27, 103, 109);
+    color: rgb(23, 149, 158);
     font-size: 32px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-style: normal;
+  margin-bottom: 15px;
 }
 
 section p {
@@ -108,6 +109,7 @@ section p {
 
 .Home .content span {
     color: aqua;
+    
 }
 
 img {
@@ -409,6 +411,10 @@ top: -65px;
     bottom: 65px;
     
 }
+.typed-cursor {
+    display: none;
+}
+
 div #aaa{
     position: relative;
     color: aqua;
@@ -715,6 +721,7 @@ input{
     .navbar a{
         display: none;
     }
+    
     .nav2{
         position: absolute;
         top: 46px;
@@ -725,6 +732,9 @@ input{
         height: 1000px;
         width: 100%;
         display: none;
+    }
+    .Home .content span {
+        margin-left: 15px;
     }
     .nav2 a {
         padding-top: 50px;
