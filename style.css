@@ -668,8 +668,7 @@ button{
         left: 92px;
     }
 .copy{
-   
-    width: 1037px;
+   margin-left: 33%;
 }
     .main{
         display: flex;
@@ -708,19 +707,16 @@ button{
         bottom: 275px;
     }
     
-        #Project {
-            height: auto;
-            display: flex;
-            margin-left: 156px;
-            width: 700px;
-    }
-    #Contact{
+    #Project { height: auto; 
         display: flex;
-        flex-direction: column;
-        margin-left: 41%;
-        justify-content: center;
-        align-items: center;
-    }
+         width: 128%; 
+         position: relative; 
+         right: 51px; }
+     #Contact{ display: flex;
+         flex-direction: column; 
+         margin-left: 7%; 
+         justify-content: center;
+          align-items: center; }
     .view{
         margin: 64px;
     }
