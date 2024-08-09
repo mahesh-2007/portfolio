@@ -840,3 +840,25 @@ input{
    
   }
 }
+/* WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0ba1a1;
+}
+
+::-webkit-scrollbar-thumb {
+    background:  #0ba1a1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background:  #0ba1a1;
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color:  #0ba1a1  #081b29;
+}
