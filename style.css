@@ -862,27 +862,22 @@ html {
     scrollbar-width: thin;
     scrollbar-color:  #0ba1a1  #081b29;
 }
-/**
-  * Arc
-  *
-  * @author jh3y - jheytompkins.com
-*/
-.arc:before {
-    -webkit-animation: spin 0.5s infinite linear;
-            animation: spin 0.5s infinite linear;
-    border-radius: 100%;
-    border-top: 6px solid var(--primary, #fff);
-    content: '';
-    display: block;
-    height: 50px;
-    width: 50px; }
-  
-  @-webkit-keyframes spin {
-    to {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); } }
-  
-  @keyframes spin {
-    to {
-      -webkit-transform: rotate(360deg);
-              transform: rotate(360deg); } }
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #0b9494;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
