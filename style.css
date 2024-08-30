@@ -50,7 +50,7 @@ div .menuB {
 .navbar a {
     font-size: 18px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 300;
     margin-right: 35px;
     transition: .3s;
     color: aliceblue;
@@ -88,7 +88,7 @@ div .menuB {
 }
 
 .content h3 {
-    color: rgb(23, 149, 158);
+    color: rgb(55, 167, 167);
     font-size: 32px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -97,14 +97,18 @@ div .menuB {
   font-style: normal;
   margin-bottom: 15px;
 }
-
+#mahesh{
+    color: rgb(0, 153, 255);
+}
 section p {
     color: rgb(133, 211, 211);
     font-weight: 700;
     width: 80%;
     position: relative;
-    
-
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .Home .content span {
@@ -213,6 +217,7 @@ img {
 
 p span {
     padding-left: 21px;
+    color: #081b29;
 }
 
 .skill {
@@ -795,7 +800,7 @@ input{
     text-align: center;
     margin: 10px;
     overflow: hidden;
-    
+    border-radius: 10px;
   }
   #card1{
     border: solid rgb(49, 98, 110);
@@ -820,7 +825,8 @@ input{
     padding-top: 20%;
     text-align: center;
     left: 42px;
-    color: aliceblue;
+    font-weight: 400px;
+    color: rgb(35, 222, 255);
   }
   .card:hover .description {
     opacity: 1;
@@ -861,23 +867,45 @@ input{
 html {
     scrollbar-width: thin;
     scrollbar-color:  #0ba1a1  #081b29;
+}  
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
 }
-.loader {
-    width: 48px;
-    height: 48px;
-    border: 5px solid #FFF;
-    border-bottom-color: #0b9494;
-    border-radius: 50%;
-    display: inline-block;
-    box-sizing: border-box;
-    animation: rotation 1s linear infinite;
-    }
 
-    @keyframes rotation {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-    } 
+/* Initially hide the body content */
+#loader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Add a spinner inside the loader */
+#loader:after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #0dbec4;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
