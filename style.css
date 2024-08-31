@@ -88,7 +88,7 @@ div .menuB {
 }
 
 .content h3 {
-    color: rgb(55, 167, 167);
+    color: rgb(35, 66, 66);
     font-size: 32px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -98,10 +98,10 @@ div .menuB {
   margin-bottom: 15px;
 }
 #mahesh{
-    color: rgb(0, 153, 255);
+    color: rgb(41, 230, 255);
 }
 section p {
-    color: rgb(133, 211, 211);
+    color: rgb(36, 170, 170);
     font-weight: 700;
     width: 80%;
     position: relative;
@@ -745,13 +745,14 @@ input{
     }
     
     .nav2{
-        position: absolute;
-        top: 46px;
+        position: fixed;
+        top: 0;
         flex-direction: column;
         align-items: center;
         background-color: #081b29;
+        z-index: 1;
         display: flex;
-        height: 1000px;
+        height: 100vh;
         width: 100%;
         display: none;
     }
@@ -764,6 +765,12 @@ input{
         text-decoration: none;
         color: aliceblue;
         font-size: 20px;
+        font-weight: 700;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+        margin-top: 16px;
     }
     .nav2 a:hover{
         color:#3498db;
@@ -802,9 +809,7 @@ input{
     overflow: hidden;
     border-radius: 10px;
   }
-  #card1{
-    border: solid rgb(49, 98, 110);
-  }
+  
   .card img {
     width: 100%;
     height: auto;
