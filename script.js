@@ -30,4 +30,19 @@ window.addEventListener('load', function () {
   loader.style.display = 'none';
   content.style.display = 'block';
 });
-
+/*
+function sendEmail(){
+  Email.send({
+    SecureToken : "52733eaf-68dc-44b5-ae5b-f65b5a9c9e3a",
+    To : 'kg605017@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+  })
+  .then(
+    message => alert("Email sent successfully!")
+  )
+  .catch(
+    error => alert("Error sending email: " + error)
+  );
+}*/

@@ -152,19 +152,32 @@
   <section id="Contact">
     <h2><u>Contact Info</u></h2>
     <div class="info">
-
+     <div class="info2">
       <h5><i class="fas fa-map-marker-alt"></i> - Chennai</h5>
       <h5><i class="fa-solid fa-envelope"></i> - mm2472229@gmail.com</h5>
       <h5> <i class="fa-solid fa-phone"></i> - 7904648329</h5>
       <h5><i class="fa-brands fa-whatsapp"></i> - 7904648329</h5>
-      <div data-aos="fade-up"><a href="#Home"><i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <!--
+      <div class="form">
+          <form onsubmit="sendEmail(); reset(); return false">
+            <h3>Get In Touch</h3>
+            <input type="text" placeholder="Name" id="name" required>
+            <input type="email" placeholder="Email" id="email" >
+            <input type="number" placeholder="Phone" required id="phone">
+            <textarea placeholder="Message" rows="4" id="Message"></textarea>
+            <input id="submit-form" type="submit" value="Send">
+          </form>
+      </div>-->
+    </div>
+      <div data-aos="fade-up" id="arrow-up"><a href="#Home"><i class="fa-solid fa-arrow-up"></i>
       <h5 id="aaa"><span>H</span>
         <span>O</span>
         <span>M</span>
         <span>E</span>
       </h5>
       </a>
-    </div></div> 
+    </div> 
   </section>
 
   <div class="copy">
@@ -175,6 +188,7 @@
     AOS.init();
   </script>
   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
 <script src="script.js">  
 </script>
 </body>
