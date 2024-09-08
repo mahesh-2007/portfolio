@@ -124,6 +124,9 @@ img {
   #check {
     display: none;
   }
+  .res-btn-a{
+  color: #0ba1a1;
+  }
   
  
 .home-btn {
@@ -544,28 +547,31 @@ div #aaa{
 
   /* mobile potrait*/
 @media(max-width:480px) {
+    body{
+        margin:10px;
+    }
     .Home{
         display: flex;
         flex-direction: column;
         padding-top: 66px;
         height: 60vh;
-        padding: 111px;
+        min-height: 63vh;
         
-}
-.Home .home-cont{
-    position: relative;
-    left: 10px;
 }
 #About{
     padding-top: 60px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #Project{
     
         padding-top: 80px;
-        padding-right: 23px;
+        padding-right: 50px;
         display: flex;
         position: relative;
-        /* left: 7px; */
         align-items: center;
         justify-content: center;
         align-content: center;
@@ -576,9 +582,9 @@ div #aaa{
     margin: 10px;
 }
 .img-port{
-    position: relative;
-    left: 1;
+
 }
+
 .mahesh{
   display: flex;
   font-size: 29px;
@@ -588,18 +594,19 @@ div #aaa{
 }
 #abtimg{
     position: relative;
-    top: 49px;
-    left: 76px;
+    top: 50px;
+    display: none;
+    left: 18%;
     width: 274px;
 }
 .skill{
-            width: 376px;
+        max-width:300px;
         height: auto;
         display: flex;
         justify-content: center;
         flex-direction: column;
         position: relative;
-        left: 1px;
+        
 }
 .content{
     display: flex;
@@ -642,11 +649,10 @@ section p{
     display: flex;
    justify-content: center;
 }
-.Resume{
-    display: flex;
-    position: relative;
-    left: 1px;
-    top: 26px;
+.res-btn{
+    padding-right: 70%;
+    text-decoration: none;
+    color:#125e5e;
 }
 .about{
     position: relative;
@@ -656,23 +662,28 @@ section p{
 #p2,
 #p3,
 #p4 {
+    color: rgb(133, 211, 211);
     display: flex;
-    position: relative;
-    left: 27px;
     width: 306px;
-    margin: 26px;
     justify-content: flex-start;
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
+    padding-top: 30px;
+}
+.home-cont{
+    margin-left: 11px;
+    max-width: 16rem;
 }
 .img2{
     position: relative;
     width: 244px;
 }
+.Project{
+    padding-left: 10%;
+}
 .view{
-    position: relative;
-    left: 15px;
+
     width: 306px;
     margin: 20px;
     justify-content: flex-start;
@@ -780,6 +791,7 @@ input{
         display: flex;
         height: 100vh;
         width: 100%;
+        left: 1px;
         display: none;
     }
     .Home .content span {
@@ -888,8 +900,9 @@ html {
     align-items: center;
     flex-wrap: wrap;
     gap: 100px 50px;
-    padding: 100px 50px;
+    padding: 100px 0 0 37px;
 }
+
 .container1 .card1{
     position: relative;
     width: 350px;
