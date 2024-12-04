@@ -287,6 +287,7 @@ h3 {
 }
 
 
+
 @keyframes html {
 
     0% {
@@ -359,6 +360,24 @@ li h3 span .lijava {
     /* text-align: center; */
     top: 50;
 }
+
+.form{
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
 .Resume:hover {
     color: aqua;
     background-color: rgb(7, 51, 54);
@@ -546,7 +565,7 @@ div #aaa{
 
 
   /* mobile potrait*/
-@media(max-width:480px) {
+@media(max-width:800px) {
     body{
         margin:10px;
     }
@@ -557,6 +576,9 @@ div #aaa{
         height: 60vh;
         min-height: 63vh;
         
+}
+form{
+
 }
 #About{
     padding-top: 60px;
@@ -694,10 +716,29 @@ section p{
 }
 
 @media screen and (min-width:482px) and (max-width: 900px) {
-    .navbar{
+   
+    .navbar {
         position: relative;
-        left: 71px;
         top: 7px;
+        padding-left: 34px;
+        width: 100000000;
+    }
+   .navbar a {
+  
+    font-size: 13px;
+   }
+   form{
+
+   }
+   .form{
+
+   }
+   section#Contact{
+    display: flex;
+    margin-right: 223px;
+   }
+    #abtimg{
+        display: none;
     }
     #Contact h2{
         position: relative;
@@ -714,13 +755,9 @@ section p{
 }
     .main{
         display: flex;
-        position: relative;
-        left: -59px;
     }
     .content{
         display: flex;
-        position: relative;
-        right: 10;
     }
     .header{
         width: 96%;
@@ -729,14 +766,8 @@ section p{
     }
     .about{
         display: flex;
-        position: relative;
-        left: 90px;
     }
     .Project{
-        height: auto;
-        display: inline-flex;
-        position: relative;
-        left: 50%;
         
     }
     .img2{
@@ -749,11 +780,6 @@ section p{
         bottom: 275px;
     }
     
-    #Project { height: auto; 
-        display: flex;
-         width: 128%; 
-         position: relative; 
-         right: 51px; }
      #Contact{ display: flex;
          flex-direction: column; 
          margin-left: 7%; 
@@ -762,20 +788,13 @@ section p{
     .view{
         margin: 64px;
     }
-   .skill{
-    position: relative;
-    margin-left: 67px;
-   }
-input{
-    display: none;
-    
-}
+
  #abtimage{
     position: relative;
     bottom: 700px;
     left: 300px;
 }}
-@media (max-width:481px) {
+@media (max-width:480px) {
    
     .navbar a{
         display: none;
@@ -982,23 +1001,6 @@ html {
     border: none;
     color: aliceblue;
 }
-.form{
-    height: 100vh;
-    width: 100%;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-form{
-    display: flex;
-    flex-direction: column;
-    padding: 2vw 4vw;
-    width: 90%;
-    max-width: 600px;
-    border-radius: 10px;
-}
-
 form h3{
     color: #fff;
     font-weight: 800;
