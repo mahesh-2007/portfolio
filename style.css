@@ -748,6 +748,9 @@ section p{
         display: flex;
         left: 96px;
     }
+    #About {
+        min-height: 100vh;
+    }
     .info{
         display: flex;
         position: relative;
@@ -770,8 +773,8 @@ section p{
     .about{
         display: flex;
     }
-    .Project{
-        
+    #Project{
+     min-height: 100vh;   
     }
     .img2{
         position: relative;
