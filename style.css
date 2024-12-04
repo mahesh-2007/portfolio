@@ -574,7 +574,7 @@ div #aaa{
         flex-direction: column;
         padding-top: 66px;
         height: 60vh;
-        min-height: 63vh;
+        min-height: 80vh;
         
 }
 form{
@@ -727,11 +727,14 @@ section p{
   
     font-size: 13px;
    }
-   form{
-
+   .copy h6 {
+    display: none;
    }
-   .form{
-
+   #aaa span {
+    display: none;
+   }
+   .fa-arrow-up:before {
+    display: none;
    }
    section#Contact{
     display: flex;
@@ -755,9 +758,9 @@ section p{
 }
     .main{
         display: flex;
-    }
-    .content{
-        display: flex;
+    } .content {
+            display: flex;
+            padding-bottom: 1111;
     }
     .header{
         width: 96%;
