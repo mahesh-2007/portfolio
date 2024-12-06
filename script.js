@@ -6,6 +6,7 @@ a.style.display="flex";
 b.style.display="flex";
 c.style.display="none";
 }
+
 function barc(){
 a.style.display="none";
 b.style.display="none";

@@ -565,7 +565,7 @@ div #aaa{
 
 
   /* mobile potrait*/
-@media(max-width:800px) {
+@media(max-width:1202px) {
     body{
         margin:10px;
     }
@@ -715,13 +715,12 @@ section p{
 }
 }
 
-@media screen and (min-width:482px) and (max-width: 900px) {
+@media screen and (min-width:482px) and (max-width: 1201px) {
    
     .navbar {
         position: relative;
         top: 7px;
         padding-left: 34px;
-        width: 100000000;
     }
    .navbar a {
   
@@ -800,7 +799,7 @@ section p{
     bottom: 700px;
     left: 300px;
 }}
-@media (max-width:480px) {
+@media (max-width:670px) {
    
     .navbar a{
         display: none;
@@ -818,6 +817,7 @@ section p{
         width: 100%;
         left: 1px;
         display: none;
+        z-index: 3;
     }
     .Home .content span {
         margin-left: 15px;
@@ -851,6 +851,7 @@ section p{
         top: 20px;
         display: none;
         font-size: 20px;
+        z-index: index 3;
     }
    
 }
