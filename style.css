@@ -217,7 +217,7 @@ p span {
 }
 
 .skill {
-    
+    top: 20%;
     width: 900px;
     margin: 95px auto;
     color:rgb(173, 231, 233);
@@ -745,7 +745,7 @@ section p{
     }
     #About {
         position: relative;
-        top: 100px;
+        top: 200px;
     }
     .info{
         display: flex;
