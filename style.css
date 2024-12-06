@@ -374,6 +374,7 @@ form{
     flex-direction: column;
     padding: 2vw 4vw;
     width: 90%;
+    position: relative;
     max-width: 600px;
     border-radius: 10px;
 }
@@ -577,12 +578,9 @@ div #aaa{
         min-height: 80vh;
         
 }
-form{
-
-}
 #About{
     padding-top: 60px;
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -738,6 +736,7 @@ section p{
    section#Contact{
     display: flex;
     margin-right: 223px;
+    min-height: 200vh;
    }
     #abtimg{
         display: none;
@@ -748,7 +747,7 @@ section p{
         left: 96px;
     }
     #About {
-        min-height: 100vh;
+        min-height: 200vh;
     }
     .info{
         display: flex;
