@@ -587,7 +587,7 @@ div #aaa{
 #Project{
     
         padding-top: 80px;
-        padding-right: 50px;
+        padding-right: 36px;
         display: flex;
         position: relative;
         align-items: center;
@@ -632,6 +632,7 @@ div #aaa{
     top: 35px;
     justify-content: center;
     align-items: center;
+    right:5px;
 }
 .info{
     display: flex;
