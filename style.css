@@ -155,12 +155,12 @@ img {
     transition: .3s;
 }
 
-.fa-facebook {
+.fa-linkedin-in{
     color: aliceblue;
 }
 
-.fa-facebook:hover {
-    color: rgb(22, 53, 156);
+.fa-linkedin-in:hover {
+    color: rgb(42, 90, 180);
     transition: .3s;
 }
 
